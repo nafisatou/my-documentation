@@ -1,28 +1,27 @@
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
-	># **CREATING A DOCKER CONTAINER IN MULTIPASS**
+	>>## CREATING A DOCKER CONTAINER IN MULTIPASS
 
  >## 1. Install multipass 
-      >for ubuntu **sudo snap install multipass ** 
+      -for ubuntu **sudo snap install multipass ** 
  >## 2. Launch multipass
-     >using the command **multipass launch**
+     -using the command **multipass launch**
  >## 3.Create a Virtual Machine VM
-   > a new vm by: **multipass launch --name docker-vm**       
+     -a new vm by: **multipass launch --name docker-vm**       
  >## 4.Install Docker in multipass
-       >Access the multippass  vm :**multipass shell docker-vm**
+       -Access the multippass  vm :**multipass shell docker-vm**
  >## 5. Start the docker
-  >start docker service:**sudo start docker**
+       -start docker service:**sudo start docker**
  >## 6 Pull a docker image
-        >to pull  a docker image: **docker pull name-image
+        -to pull  a docker image: **docker pull name-image
  >## 7 verify docker installation
-         > run docker --version
+          -run docker --version
  ># 8 Creat a docker container 
-  >docker container create -i -t --name mycontainer
+          -docker container create -i -t --name mycontainer
  >## 9 Start a docker
-  > docker container start --attach -i mycontainer
+          - docker container start --attach -i mycontainer
  >## 10 Creat a docker alias for ease fo use 
-  >  run alias docker ="multipass exec docker -vm --docker"
+          -run alias docker ="multipass exec docker -vm --docker"
 
 	
